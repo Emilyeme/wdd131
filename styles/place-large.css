@@ -1,0 +1,21 @@
+ @media(min-width:1000px) {
+  
+ .data {
+    position: absolute;
+    top: 200px;
+    left: 10px;
+    z-index: 2;
+    font-size: 27px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+.weather {
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+    z-index: 2;
+    font-size: 27px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+
+}
