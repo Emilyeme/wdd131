@@ -1,0 +1,25 @@
+/* Show nav horizontally */
+nav {
+  display: flex !important;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 1rem;
+  width: auto;
+}
+
+#menu-button {
+  display: none;
+}
+
+.grid-container {
+  grid-template-columns: repeat(3, 1fr);
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    display: grid;
+    /* Only if it's different from baseline */
+  }
+}
