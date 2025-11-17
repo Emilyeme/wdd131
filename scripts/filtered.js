@@ -76,7 +76,7 @@ const temples = [
     location: "Brasilia, Brazil",
     dedicated: "2023, September, 17",
     area: 25000,
-    imageUrl: ""
+    imageUrl: "https://churchofjesuschristtemples.org/assets/img/temples/brasilia-brazil-temple/brasilia-brazil-temple-39184-main.jpg"
   },
     {
         templeName: "Kinshasa DRC",
