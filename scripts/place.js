@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   if (temp <= 12 && wind > 4.8) {
     const chill = calculateWindChill(temp, wind);
-    chillEl.textContent = `${chill.toFixed(1)} °C`;
+    chillEl.textContent = `${chill.toFixed(1.0)} °C`;
   } else {
     chillEl.textContent = "N/A";
   }

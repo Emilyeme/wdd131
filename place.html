@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author"  content="Emily Emerson Cotilda N">
+  <meta name="description" content="Uganda information page with weather data and scenic views.">
+  <title>UGANDA</title>
+  <link rel="stylesheet" href="styles/place.css" >
+  <link rel="stylesheet" href="styles/place-large.css">
+  <script src="scripts/place.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>U G A N D A</h1>
+  </header>
+
+  <main>
+    <section class="hero">
+      <picture>
+        <source srcset="images/hero-large.webp" media="(min-width: 600px)">
+        <img src="images/hero-small.webp" alt="Scenic view of Uganda">
+      </picture>
+    </section>
+
+    <section class="data">
+      <h2>Data</h2>
+      <ul>
+        <li><strong>Capital:</strong> Kampala</li>
+        <li><strong>Population:</strong> 51 million</li>
+        <li><strong>Currency:</strong> Shillings</li>
+        <li><strong>Official Language:</strong> English</li>
+        <li><strong>Independence:</strong> October 9, 1962</li>
+      </ul>
+    </section>
+
+    <section class="weather">
+      <h2>Weather</h2>
+      <img src="images/weather_icon.svg" alt="Weather icon" class="icon-mobile">
+      <ul>
+        <li><strong>Temperature:</strong> <span id="temp">21</span>°C</li>
+        <li><strong>Wind Speed:</strong> <span id="wind">11</span> km/hr</li>
+        <li><strong>Humidity:</strong> 75%</li>
+        <li><strong>Wind Chill:</strong> <span id="chill">Calculating...</span></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> | Emily Emerson Cotilda N | Kampala</p>
+    <p>Last modified: <span id="lastModified"></span></p>
+  </footer>
+</body>
+</html>
